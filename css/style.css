@@ -142,10 +142,6 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
-    list-style: none;
-}
 
 blockquote,
 q {
@@ -202,7 +198,6 @@ ul,
 li {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 strong {
@@ -249,11 +244,11 @@ menue style
     padding-top: 10px !important;
     z-index: 9999;
     transition: 0.3s all;
-    background-color: rgba(37, 76, 233, 0.3);
+    background-color: #fff;
 }
 
 .navbar.navbar-expand-lg.active_sc:hover {
-    background-color: rgba(37, 76, 233, 1);
+    background-color: #fff;
 }
 
 .navbar.active_sc .navbar-brand {
@@ -403,6 +398,7 @@ Start Banner style
     background-position: top;
     background-repeat: no-repeat;
     padding-top: 230px;
+    padding-bottom: 100px;
 }
 
 .hero-banner-sec .banner-inside h1 {
@@ -418,7 +414,7 @@ Start Banner style
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #000000;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.7em;
 }
 
@@ -2687,3 +2683,40 @@ Start Home two style
 Close Home two style
 
 -------------------------------- */
+.tag-ul{
+    padding-left: 15px;
+}
+.tag-ul>li{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.tag-ul li ul{
+    padding-left: 15px;
+}
+.tag-ul li ul li{
+    font-weight: normal;
+    font-size: 17px;
+}
+.fade.in {
+    opacity: 1;
+}
+.style-tab-li{
+    width: 50%;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+    background-color: #dce5fb;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.style-tab-li.active{
+    background-color: #1a56f0;
+}
+.style-tab-li.active a{
+    color: #fff;
+}
+.style-tab-li a{
+    color: #1a56f0;
+}
