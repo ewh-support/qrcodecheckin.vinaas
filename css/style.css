@@ -397,8 +397,8 @@ Start Banner style
     background-size: 100% 100%;
     background-position: top;
     background-repeat: no-repeat;
-    padding-top: 230px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .hero-banner-sec .banner-inside h1 {
@@ -984,7 +984,7 @@ Start About product style
 
 .title p {
     color: #42435d;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     padding-top: 14px;
 }
@@ -1053,7 +1053,7 @@ Start About product style
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #000000;
-    font-size: 24px;
+    font-size: 17px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -1218,10 +1218,13 @@ Start Easy to begin style
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #000000;
-    font-size: 24px;
+    font-size: 21px;
     padding-top: 25px;
+    padding-bottom: 15px;
 }
-
+.begin-one p, .begin-two p, .begin-three p{
+    font-size: 17px;
+}
 .begin-inside-line .begin-one .icon p,
 .begin-inside-line .begin-two .icon p,
 .begin-inside-line .begin-three .icon p {
@@ -1276,7 +1279,7 @@ Start Easy to begin style
         overflow: hidden;
     }
     .begin-right-image img {
-        max-width: 785px;
+        max-width: 530px;
         margin-right: -250px;
         margin-top: -200px;
     }
@@ -1451,7 +1454,7 @@ Start Amazing feature style
 .feature-txt-in p {
     font-weight: 400;
     color: #42435d;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 
@@ -2705,18 +2708,20 @@ Close Home two style
     width: 50%;
     font-weight: 600;
     text-align: center;
-    padding: 10px 0px;
     font-size: 18px;
     background-color: #dce5fb;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
-.style-tab-li.active{
+.style-tab-li a.active{
     background-color: #1a56f0;
 }
-.style-tab-li.active a{
+.style-tab-li a.active{
     color: #fff;
 }
 .style-tab-li a{
     color: #1a56f0;
+    width: 100%;
+    display: block;
+    padding: 10px;
 }
