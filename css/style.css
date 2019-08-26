@@ -1428,7 +1428,7 @@ Start Amazing feature style
 .amazing-feature-sec {
     width: 100%;
     padding-top: 105px;
-    padding-bottom: 73px;
+    /* padding-bottom: 73px; */
 }
 
 .amazing-feature-sec .single-feature {
